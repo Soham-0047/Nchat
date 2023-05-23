@@ -1,0 +1,55 @@
+.joinpage{
+
+    height:100vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #111927;
+    background-image: 
+        radial-gradient(at 47% 33%, hsl(162.00, 77%, 40%) 0, transparent 59%), 
+        radial-gradient(at 82% 65%, hsl(218.00, 39%, 11%) 0, transparent 5)
+
+}
+.container{
+    border:0px solid white;
+    height:50%;
+    width:50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    backdrop-filter: blur(15px) saturate(180%);
+    -webkit-backdrop-filter: blur(15px) saturate(180%);
+    background-color: rgba(10, 39, 94, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+
+
+}
+.container > h1{
+    color:white;
+    text-align: center;
+
+    
+}
+.container #j1{
+
+    width: 25vmax;
+    padding: 1.5vmax;
+    border-radius: 10px 10px 10px 10px;
+    outline: none;
+    font-size: 1.2vmax;
+    margin: 2vmax;
+    box-sizing: border-box;
+}
+.container .jbtn{
+    background-color: red;
+    padding:10px 30px;
+    margin-top: 30px;
+    color:white;
+    font-size: 1rem;
+    cursor: pointer;
+    
+}
